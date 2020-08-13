@@ -184,17 +184,6 @@ class CanvasView(context:Context): View(context) {
                 "Permission Denied, So Give Permission From App info --> Permission --> Turn ON ",
                 Toast.LENGTH_SHORT
             ).show()
-            /* if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
-                if (ActivityCompat.shouldShowRequestPermissionRationale(
-                        context as Activity, Manifest.permission.WRITE_EXTERNAL_STORAGE
-                    )) {
-                } else {
-                    ActivityCompat.requestPermissions(context as Activity, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),0)
-                }
-            } else {
-                // Permission has already been granted
-            }*/
             Log.d("Error", "$e1")
         }
         return ""
