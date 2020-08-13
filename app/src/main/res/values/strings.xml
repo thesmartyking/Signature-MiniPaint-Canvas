@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Signature-Canvas-Mini-Paint</string>
+    <string name="canvasContentDescription">Mini Paint is a simple line drawing app.
+   Drag your fingers to draw. Rotate the phone to clear.</string>
+    <string name="saved">Image Saved --> Check Directory</string>
+    <string name="cleared">Image Cleared</string>
+</resources>
